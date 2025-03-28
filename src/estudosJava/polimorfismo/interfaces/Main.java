@@ -1,7 +1,5 @@
 package estudosJava.polimorfismo.interfaces;
 
-import java.util.Iterator;
-
 public class Main {
 	public static void main(String[] args) {
 		Forma[] formas = new Forma[2];

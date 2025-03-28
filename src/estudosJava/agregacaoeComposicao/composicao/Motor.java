@@ -1,0 +1,13 @@
+package estudosJava.agregacaoeComposicao.composicao;
+
+public class Motor {
+	private int potencia; 
+	
+	public Motor(int potencia) {
+		this.potencia = potencia;
+	}
+	
+	public void ligar() {
+		System.out.println("Motor ligado com potência de " +potencia+ " cavalos.");
+	}	
+}
