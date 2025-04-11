@@ -5,7 +5,7 @@ import java.util.Optional;
 public class Optional02 {
 	public static void main(String[] args) {
 		
-		String nomeUsuario = "Eduardo";
+		String nomeUsuario = null;
 		Optional<String> nome = Optional.ofNullable(nomeUsuario);
 		
 		if(nome.isPresent()) {
